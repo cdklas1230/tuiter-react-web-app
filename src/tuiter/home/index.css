@@ -1,0 +1,18 @@
+.retweet{
+    color: dimgray;
+    font-size: 14px;
+}
+
+.main-image{
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.main-citation{
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+}
+
+.dot-wrapper{
+    text-align: right;
+}
