@@ -35,7 +35,7 @@ const HomeComponent = (
                 }
                 <div className="row g-0">
                     <div className="col-1">
-                        <img className="rounded-circle" height={48} src={`/images/${tweets.avatarIcon}`}/>
+                        <img className="rounded-circle" height={48} src={`/images/${tweets.avatarIcon}`} alt=""/>
                     </div>
                     <div className="col-11">
                         <div className="tweets-subtitle">
@@ -54,7 +54,7 @@ const HomeComponent = (
                         {
                             tweets["has-image"] ? (
                                 <div className="main-image mt-2">
-                                    <img className="w-100" src={`/images/${tweets.image}`}/>
+                                    <img className="w-100" src={`/images/${tweets.image}`} alt=""/>
                                 </div>
                             ) : null
                         }
@@ -63,8 +63,7 @@ const HomeComponent = (
                                 <div className="main-citation mt-2">
                                     <div className="row">
                                         <div className="col-12 ms-2 mt-2">
-                                            <img className="rounded-circle" height={22}
-                                                 src={`/images/${tweets.citation[0].avatarIcon}`}/>
+                                            <img className="rounded-circle" height={22} src={`/images/${tweets.citation[0].avatarIcon}`} alt=""/>
                                             <span className="fw-bold">&nbsp;{tweets.citation[0].userName} </span>
                                             <i className="bi bi-patch-check-fill" style={{color: "dodgerblue"}}></i>
                                             <span
