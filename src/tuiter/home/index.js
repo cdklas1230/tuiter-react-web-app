@@ -1,6 +1,6 @@
 import React from "react";
 import tweetsArrays from './tweets.json';
-import HomeComponent from "./home-item";
+import HomeComponent from "./home-item.js";
 import "./index.css";
 
 const HomeScreen = () => {

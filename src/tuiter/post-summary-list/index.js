@@ -1,7 +1,7 @@
 import React from "react";
 import postsArray from './posts.json';
 import PostSummaryItem
-    from "./post-summary-item";
+    from "./post-summary-item.js";
 
 const PostSummaryList = () => {
     return(
