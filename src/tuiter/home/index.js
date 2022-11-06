@@ -1,18 +1,14 @@
 import React from "react";
-import tweetsArrays from './tweets.json';
-import HomeComponent from "./home-item.js";
-import "./index.css";
+import TuitsList from "../tuits";
+import WhatsHappening from "./whats-happening.js";
 
 const HomeScreen = () => {
     return (
-        <ul className="list-group">
-            {
-                tweetsArrays.map(tweets =>
-                    <HomeComponent
-                        key={tweets._id} tweets={tweets}/>
-                )
-            }
-        </ul>
+        <>
+            <h4>Home</h4>
+            <WhatsHappening/>
+            <TuitsList/>
+        </>
     )
 }
 export default HomeScreen;

@@ -1,0 +1,19 @@
+.bannerPic{
+    height: 200px;
+    overflow: hidden;
+}
+
+.avatarPic{
+    position: absolute;
+    left:50px;
+    top:200px;
+    border: 2px solid white;
+}
+
+.head-wrapper{
+    height: 40px;
+}
+
+.second-head-wrapper{
+    height: 55px;
+}
